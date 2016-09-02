@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ps auxw | grep voicemail.asterisk_mailbox.daemon | grep -v grep > /dev/null
 
